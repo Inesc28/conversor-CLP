@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"
+    ></script>
+    <title>Conversor de Monedas</title>
+  </head>
+  <body>
+    <h1>Conversor de Monedas Nacional (CLP)</h1>
+    <div class="convert-container">
+      <input type="text" id="input" class="input" />
+      <select name="Moneda" id="select-moneda">
+        <option value="Dolar">Dolar</option>
+        <option value="Euros">Euros</option>
+      </select>
+      <button id="btn-convert">Buscar</button>
+      <button id="showGraph">Mostrar Gráfico</button>
+      <div id="results"></div>
+    </div>
+    <canvas id="graph"></canvas>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
